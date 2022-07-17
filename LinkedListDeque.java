@@ -121,7 +121,7 @@ public class LinkedListDeque<T> implements Deque<T> {
         }
 
 
-    /** recursive method */
+    /** 'get' in recursive method */
         public T getRecursive(int index){
             if (index > this.size){
                 return null;
